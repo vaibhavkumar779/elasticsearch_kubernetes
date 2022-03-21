@@ -1,0 +1,6 @@
+resources:
+  - namespace.yml
+  - storageclass.yml
+  - headless_svc.yml
+  - nodeport_svc.yml
+  - elastic_statefulset.yml
