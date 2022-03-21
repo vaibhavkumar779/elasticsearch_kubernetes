@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: es-svc1 
+  namespace: es-namespace
+  labels:
+    app: elasticsearch
+spec:
+  selector:
+    app: elasticsearch
+  ports:
+    - port: 9200
+  type: NodePort
